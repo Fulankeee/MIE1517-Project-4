@@ -45,11 +45,11 @@ Embedding to LSTM to FullyConnected to Sigmoid
 
 ### Training Strategy
 - Input: tokenized text + attention masks
-- Learning Rate: 2e-5
+- Learning Rate: 0.00001
 - Epochs: 3
 
 ### BERT Accuracy
-- **Validation Accuracy**: **~92.5%**
+- **Validation Accuracy**: **92.5%**
 - Faster convergence and better contextual understanding than RNN
 - Robust to mixed sentiment and longer sequences
 
